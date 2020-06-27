@@ -7,14 +7,8 @@
 
   "browser_action": {
    "default_icon": "foot.png",
-   "default_popup": "popup.html"
   },
   "permissions": [
    "activeTab"
- ],
- "content_scripts": [
-  {
-    "js": ["content.js"]
-  }
-]
+ ]
 }
