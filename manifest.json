@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Text to Foot",
+  "description": "This extension will convert all text on page to the word foot and change the background.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "foot.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+ ],
+ "content_scripts": [
+  {
+    "js": ["content.js"]
+  }
+]
+}
